@@ -1,17 +1,17 @@
 
-// console.log('namaste doston!')
-// console.log('Codex 108')
+ console.log('namaste doston!')
+ console.log('Codex 108')
 
-// // variables (var, const, let)
-// let name = 'Peter Parker'
-// console.log(name)
+ // variables (var, const, let)
+ let name = 'Peter Parker'
+ console.log(name)
 
-// let sentence = 'how are you doing today, nice to see you, hope you have a great day!'
+ let sentence = 'how are you doing today, nice to see you, hope you have a great day!'
 
 // operators
-// fruit = prompt('what is your favorite fruit?')
+ fruit = prompt('what is your favorite fruit?')
 
-// console.log(fruit)
+ console.log(fruit)
 
 // * / ** + -
 
@@ -20,9 +20,9 @@
 // tipAmount = food * tipPercentage
 // total = food + tipAmount
 
-// console.log('tip amount', tipAmount)
-// console.log('total', total)
-// alert(tipAmount)
+ console.log('tip amount', tipAmount)
+ console.log('total', total)
+ alert(tipAmount)
 
 // user input
 
@@ -49,16 +49,14 @@ Ceil - Rounds up
 Random - gives you number between 0 and 1
 */
 
-// Baby weather app (conditionals)
-// if rain 👉 'Grab your umbrella ☔'
-// else 👉 'Wear your sunglasses 😎'
-// let weather = prompt('How is the weather?')
-
-// if (weather == 'rainy') {
-//   console.log('Grab your umbrella ☔')
-// } else {
-//   console.log('Wear your sunglasses 😎')
-// }
+//Shitty weather app
+let weather = prompt('What is the weather like?')
+if(weather == 'rain'){
+  console.log('Grab your Umbrella ☂')
+}
+else{
+  console.log('Wear your sunglasses 😎')
+}
 
 // conditional operators
 // ==, ===, >, <, <=, >=, !=, !==
@@ -91,22 +89,7 @@ function greeting(name) {
 
 // greeting('Johnny Depp')
 
-// function sum(a, b) {
-//   // return
-//   return a + b
-// }
 
-// num1 = sum(1, 2)
-// console.log(num1)
-
-// function calculateFoodTotal(food, tip) {
-//   const tipPercentage = tip / 100
-//   const tipAmount = food * tipPercentage
-//   const total = sum(food, tipAmount)
-//   return total
-// }
-
-// console.log(calculateFoodTotal(300, 20))
 
 // ES6
 // Arrow Functions =>
@@ -122,3 +105,29 @@ function greeting(name) {
 
 //=====================================================================================
 
+// Arrays
+const groceries = ['🍍', '🍎', '🍊', '🍐']
+console.log(groceries)
+
+//grab the 2nd index
+console.log(groceries[2])
+
+//Array methods
+groceries.push('🍪')
+console.log(groceries)
+
+groceries.push('🍛')
+console.log(groceries)
+
+//popping an element
+groceries.pop(groceries[5]);
+console.log(groceries)
+
+//Array Slice
+//start from 0 INCLUSIVE and UP to 6 [0, 1, 2, 3, 4, 5]
+ console.log('slicing operation -->',groceries.slice(0, 6))
+
+console.log(groceries.slice(1, 4))
+//array methods (slice, push, indexOf, length)
+console.log(groceries.indexOf('🍐'))
+console.log(groceries.length)
