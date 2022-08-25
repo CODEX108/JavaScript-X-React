@@ -78,16 +78,43 @@ function sayMyName2(name) {
   console.log(name)
 }
 
-// sayMyName2('Kevin')
-
-function greeting(name) {
-  // greet = 'hi ' + name + ', Nice to meet you!'
-  // template literals ``
-  greet = `hi ${name}, Nice to meet you!`
+function sayMyName (name){
+  
+  /*Template literals provide an easy way 
+  to incorporate variables into strings.
+  Interpolitian is an efficient way of 
+  concatenation
+  template literals ``
+  */
+  greet = `hi {name},Noce to meet you!`
   console.log(greet)
+  console.log('Namaste!')
 }
 
-// greeting('Johnny Depp')
+//calling a function
+sayMyName('Jonny Depp')
+
+function Birthday(gift,wishes){
+   
+  console.log(gift)
+  return `This is your return gift 📦 and my wishes `
+}
+
+let ret = Birthday('Hey buddy this is your gift 🎁',3)
+console.log(ret)
+
+ function sum (n1,n2){
+  return n1+n2;   
+ }
+
+function calculateFoodTotal(food, tip) {
+  const tipPercentage = tip/100;
+  const tipAmont = food * tipPercentage;
+  const total = sum(food , tipPercentage);
+  return total;
+}
+
+console.log(calculateFoodTotal(2000,5))
 
 
 
