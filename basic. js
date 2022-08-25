@@ -158,3 +158,31 @@ console.log(groceries.slice(1, 4))
 //array methods (slice, push, indexOf, length)
 console.log(groceries.indexOf('🍐'))
 console.log(groceries.length)
+
+//Objects -> key:value pairs
+const person = {
+  name: 'Leonardo',
+  shirt: 'white'
+}
+
+//dot notation
+console.log (person.name)
+console.log (person.shirt)
+
+//bracket notation
+console.log(person['name'])
+console.log(person['shirt'])
+
+//assign object 
+person.phone = '1-222-333-4444'
+person['profession'] = 'actor'
+
+console.log(person)
+const person2= {
+  name : 'Cris Evans',
+  shirt : 'black',
+  aka : 'Captain America'
+}
+
+console.log(person2.name)
+console.log(person2['shirt'])
