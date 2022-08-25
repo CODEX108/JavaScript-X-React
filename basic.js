@@ -191,14 +191,22 @@ const introducer = (name, shirt, aka) => {
   const insaan = {
     name: name,
     shirt: shirt,
-    aka: aka
+    aka: aka,
+    assets : 1000000,
+    liabilities : 50000,
+    netWorth : function (){
+      return this.assets-this.liabilities;
+      
+    }
+    
   }
 
   const intro = `Hi my name is ${insaan.name} and the color of my 
- shirt is ${insaan.shirt} ,I am also known as ${insaan.aka}`;
+ shirt is ${shirt} ,I am also known as ${insaan.aka} and my net worth is $${insaan.netWorth()} USD`;
 
   return intro;
 }
 
+console.log(introducer('Leorardo','grey','Jack'))
+
 console.log(introducer('Digvijay', 'Navy Blue', 'DJ'));
-console.log(introducer('Leorardo','grey','Jack'));
