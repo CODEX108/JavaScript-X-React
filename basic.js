@@ -186,3 +186,19 @@ const person2= {
 
 console.log(person2.name)
 console.log(person2['shirt'])
+
+const introducer = (name, shirt, aka) => {
+  const insaan = {
+    name: name,
+    shirt: shirt,
+    aka: aka
+  }
+
+  const intro = `Hi my name is ${insaan.name} and the color of my 
+ shirt is ${insaan.shirt} ,I am also known as ${insaan.aka}`;
+
+  return intro;
+}
+
+console.log(introducer('Digvijay', 'Navy Blue', 'DJ'));
+console.log(introducer('Leorardo','grey','Jack'));
