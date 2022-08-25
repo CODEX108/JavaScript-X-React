@@ -222,11 +222,11 @@ let fruits = ['🍌', '🍎', '🍊', '🍐', '🍌', '🍎', '🍊', '🍐', '�
 for (let i=0; i < fruits.length; i++) {
   console.log(fruits[i])
 }
-
+//========================================
 for (const fruit of fruits) {
   console.log(fruit)
 }
-
+//==========================================
 const numbers = [1, 2, 3, 4, 5, 6]
 // for (let i=0; i < numbers.length; i++) {
 //   console.log(numbers[i])
@@ -240,4 +240,4 @@ const double = (numbers) => {
 
   return result
 }
-
+//=========================================
