@@ -66,7 +66,7 @@ else{
 // and it has 0 arguments
 // does: it logs out your name to the console
 function sayMyName() {
-  console.log('Qazi')
+  console.log('Manjiri')
 }
 
 // sayMyName()
