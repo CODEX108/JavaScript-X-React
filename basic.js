@@ -69,7 +69,7 @@ function sayMyName() {
   console.log('Manjiri')
 }
 
-// sayMyName()
+ sayMyName()
 
 // this is a function called "sayMyName2"
 // it has 1 argument called `name`
@@ -210,3 +210,34 @@ const introducer = (name, shirt, aka) => {
 console.log(introducer('Leorardo','grey','Jack'))
 
 console.log(introducer('Digvijay', 'Navy Blue', 'DJ'));
+
+
+let fruits = ['🍌', '🍎', '🍊', '🍐', '🍌', '🍎', '🍊', '🍐', '🍌', '🍎', '🍊', '🍐', '🍌', '🍎', '🍊', '🍐', '🍌', '🍎', '🍊', '🍐']
+
+// console.log(fruits[0])
+// console.log(fruits[1])
+// console.log(fruits[2])
+// console.log(fruits[3])
+
+for (let i=0; i < fruits.length; i++) {
+  console.log(fruits[i])
+}
+
+for (const fruit of fruits) {
+  console.log(fruit)
+}
+
+const numbers = [1, 2, 3, 4, 5, 6]
+// for (let i=0; i < numbers.length; i++) {
+//   console.log(numbers[i])
+// }
+
+const double = (numbers) => {
+  let result = []
+  for (const number of numbers) {
+    result.push(number * 2)
+  }
+
+  return result
+}
+
