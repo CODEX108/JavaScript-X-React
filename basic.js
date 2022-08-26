@@ -241,4 +241,22 @@ const double = (numbers) => {
   return result
 }
 //=========================================
-//2:11:24
+
+const howManyLetters = (phrase) => {
+  // counter
+  let result = 0;
+
+  for (const index in phrase) {
+    console.log(Number(index) + 1)
+    result = Number(index) + 1
+  }
+
+  return { result }
+}
+
+const phrase = prompt('write your phrase')
+
+console.log(howManyLetters(phrase))
+
+//=========================================
+
