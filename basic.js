@@ -271,3 +271,22 @@ const sumArray = (numbers)=> {
 
 numbers = [2,1,3,4,5,10]
 console.log(sumArray(numbers))
+
+// for of => gives the actual element present in the array
+// for in => gives the index at which the respective element is present
+
+//COUNT HTE FREQUENCY OF LETTERS
+const freq={}
+const letterFrequency = (phrase)=>{
+  for (let letter of phrase){
+    if(letter in freq){
+      freq[letter] += 1;
+    }
+    else{
+      freq[letter] = 1;
+    }
+  }
+  return freq
+}
+
+console.log(letterFrequency('haha'))
