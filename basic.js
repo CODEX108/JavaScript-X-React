@@ -260,3 +260,14 @@ console.log(howManyLetters(phrase))
 
 //=========================================
 
+const sumArray = (numbers)=> {
+  let result = 0;
+  for (const i of numbers){
+    result += i;
+  }
+    return result;
+  
+}
+
+numbers = [2,1,3,4,5,10]
+console.log(sumArray(numbers))
