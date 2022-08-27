@@ -161,7 +161,7 @@ console.log(groceries.length)
 
 
 //When you Oopen Netflix or any other OTT patform , you see series of cards/pics of movies with their name,photos,and decscrption
-//Here objects are extensively used for storing data about a single entity.
+//Here objects/(array of objects) are extensively used for storing data about a single entity.
 //Objects -> key:value pairs
 const person = {
   name: 'Leonardo',
