@@ -159,6 +159,9 @@ console.log(groceries.slice(1, 4))
 console.log(groceries.indexOf('🍐'))
 console.log(groceries.length)
 
+
+//When you Oopen Netflix or any other OTT patform , you see series of cards/pics of movies with their name,photos,and decscrption
+//Here objects are extensively used for storing data about a single entity.
 //Objects -> key:value pairs
 const person = {
   name: 'Leonardo',
@@ -307,7 +310,9 @@ console.log(letterFrequency('haha'))
 //     return freq;
 // };
 
-
+//You miht be wondering what can be the real world application of this
+// Well,imagine a google search where , the search engine is automatically recommending you (sugggestiong)
+//some word to complete the sectence , So the Search Engine might be taking the word frequency into consideration.
 //============= Counting word frequency ============================
 let freqL = {};
 const wordFreq = (phrase) => {
