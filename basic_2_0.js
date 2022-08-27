@@ -13,3 +13,11 @@ const filters = (numbers, greaterThan) => {
 }
 
 console.log(filters([1, 2, 3, 4, 5, 6]))
+
+const actors = [
+  {name: 'johnny', networth:2000000},
+  {name: 'amber' , networth:10},
+  {name: 'leonardo',networth:1000000}
+]
+
+let result = (actors.filter(actor => actor.networth>10))
