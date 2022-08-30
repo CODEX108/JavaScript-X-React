@@ -18,7 +18,7 @@ console.log(filters([1, 2, 3, 4, 5, 6]))
 //===================================================================================
 //creating array of objects
  const actors = [
-  { name: 'johnny🏴‍☠️', netWorth: 2000000 },
+  { name: 'johnny', netWorth: 2000000 },
   { name: 'amber🐕🐾🐝', netWorth: 10 },
   { name: 'matt', netWorth: 170000000 },
   { name: 'brad', netWorth: 300000000 },
@@ -36,4 +36,4 @@ console.log(actors.reduce((prev, curr) => prev + curr.netWorth, 0))
  playground.innerHTML = `<h1>${names}</h1>`
  
  //===================================================================================
- 
+ //DOM - Data object manipulation
