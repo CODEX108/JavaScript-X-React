@@ -69,3 +69,28 @@ const circle = {
 
 //access the members using dot notation
 circle.draw();
+
+//factory function
+function createCircle(radius){
+return {
+  //properties in JS
+  radius,
+  draw: function(){
+    console.log(`draw a circle with radius ${radius}`);
+  }
+  }
+
+};
+
+const circle = createCircle(1);
+circle.draw();
+
+//Constructor function
+function Circle (radius){
+  this.radius = radius;
+  this.draw = function(){
+    console.log('draw');
+  }
+}
+
+const another = new Circle(1);
