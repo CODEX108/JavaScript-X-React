@@ -52,3 +52,20 @@ x(function y(){
 
  //===================================================================================
  //DOM - Data object manipulation
+ //===================================================================================
+//OOPS
+const circle = {
+  //properties in JS
+  radius:1,
+  location:{
+    x:1,
+    y:1
+  },
+//methods in JS
+  draw: function(){
+    console.log('draw');
+  }
+};
+
+//access the members using dot notation
+circle.draw();
