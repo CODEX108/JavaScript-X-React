@@ -35,5 +35,20 @@ let names = result.map(actor => actor.name).join(', ')
 console.log(actors.reduce((prev, curr) => prev + curr.netWorth, 0))
  playground.innerHTML = `<h1>${names}</h1>`
  
+ //CALLBACK FUNCTIONS
+ //=======================================================================================
+ setTimeout(function(){
+    console.log("timer");
+},5000);
+
+function x(y){
+    console.log("x");
+    y();
+}
+
+x(function y(){
+    console.log("y");
+});
+
  //===================================================================================
  //DOM - Data object manipulation
